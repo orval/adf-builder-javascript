@@ -4,7 +4,7 @@ import { ContentNode, TopLevelNode, Typed } from './index';
 import { OrderedList } from './ordered-list';
 import { Paragraph } from './paragraph';
 
-export type PanelType = 'info' | 'note' | 'tip' | 'warning';
+export type PanelType = 'info' | 'note' | 'tip' | 'warning' | 'success' | 'error';
 
 export class Panel extends TopLevelNode {
 

@@ -3,7 +3,7 @@ import { Heading } from './heading';
 import { ContentNode, TopLevelNode, Typed } from './index';
 import { OrderedList } from './ordered-list';
 import { Paragraph } from './paragraph';
-export declare type PanelType = 'info' | 'note' | 'tip' | 'warning';
+export declare type PanelType = 'info' | 'note' | 'tip' | 'warning' | 'success' | 'error';
 export declare class Panel extends TopLevelNode {
     private readonly panelType;
     content: ContentNode<TopLevelNode>;
